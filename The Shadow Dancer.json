@@ -1,0 +1,151 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "The Shadow Dancer",
+				"abbreviation": "TSD",
+				"full": "The Shadow Dancer",
+				"version": "1.0.0",
+				"url": "http://dmsworkshop.com/wp-content/uploads/2017/04/Arcane-Emporium-6-v2.pdf",
+				"authors": [
+					"Arcane Emporium"
+				],
+				"convertedBy": [
+					"MatteoDaBergamo"
+				],
+				"color": "aa40b4"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 1672240086,
+		"_dateLastModifiedHash": "efbdd10137"
+	},
+	"class": [
+		{
+			"name": "The Shadow Dancer",
+			"source": "The Shadow Dancer",
+			"page": 1,
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+			],
+			"startingProficiencies": {
+				"tools": [
+					"{@item disguise kit|phb}"
+				],
+				"skills": [
+						"stealth"
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"or": [
+						{
+							"int": 13,
+							"wis": 13,
+							"cha": 13
+						}
+					]
+				},
+				"proficienciesGained": {
+					"tools": [
+                        "{@item disguise kit|phb}"
+                    ],
+					"skills": [
+							"stealth"
+					]
+				}
+			}
+		}
+	],
+    "classFeatures": [
+        "Shadow Mantle|The Shadow Dancer|The Shadow Dancer|1",
+        "Shadowsight|The Shadow Dancer|The Shadow Dancer|1",
+        "Shadow Step|The Shadow Dancer|The Shadow Dancer|2",
+        "Shadowstrike|The Shadow Dancer|The Shadow Dancer|2",
+        "Shadow Walker|The Shadow Dancer|The Shadow Dancer|3",
+        "Improved Shadow Strike|The Shadow Dancer|The Shadow Dancer|4",
+        "Armor of Shadows|The Shadow Dancer|The Shadow Dancer|5"
+    ],
+	"classFeature": [
+		{
+			"name": "Shadow Mantle",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 1,
+			"entries": [
+				"At first level, you gain the ability to weave shadows around yourself to hide your presence. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light."
+			]
+		},
+		{
+			"name": "Shadowsight",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 1,
+			"entries": [
+                "Starting at 1st level, darkness cannot impair your vision. You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+			]
+		},
+		{
+			"name": "Shadow Step",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 2,
+			"entries": [
+                "Beginning at 2nd level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+			]
+		},
+		{
+			"name": "Shadowstrike",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 2,
+			"entries": [
+                "Also at second level, you gain the ability to imbue your strikes with the power of shadow. When you make a melee weapon attack against a target from dim light or darkness, you deal additional necrotic damage equal to your shadow dancer level."
+			]
+		},
+		{
+			"name": "Shadow Walker",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 3,
+			"entries": [
+                "At 3rd level, you are so suffused with the power of the Shadowfell that you are able to mute soft noises in your viscinity. While you are in dim light or darkness, you have advantage on Dexterity (Stealth) checks."
+			]
+		},
+        {
+			"name": "Improved Shadowstrike",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 1,
+			"entries": [
+                "When you reach 4th level, your attacks now critically hit on a 19 or 20 when attacking from dim light or darkness."
+            ]
+		},
+		{
+			"name": "Armor of Shadows",
+			"source": "The Shadow Dancer",
+			"page": 2,
+			"className": "The Shadow Dancer",
+			"classSource": "The Shadow Dancer",
+			"level": 1,
+			"entries": [
+                "Beginning at 5th level, you are a master of the shadows. While you are in dim light or darkness, you have resistance to bludgeoning, piercing, and slashing damage from non-magical weapons, and no attack roll has advantage against you while you aren't incapacitated."
+			]
+		}
+	]
+}
